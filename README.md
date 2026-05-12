@@ -6,6 +6,14 @@
 
 ---
 
+## Interactive Tableau Dashboard
+
+View the live dashboard here:
+
+[Executive Operations Dashboard](https://public.tableau.com/app/profile/mariah.alexander/viz/Executive_Operations_Dashboard/ExecutiveOperationsDashboard?publish=yes)
+
+---
+
 # Project Overview
 
 This business intelligence and exploratory data analysis project investigates declining profitability within a retail company despite continued sales growth.
