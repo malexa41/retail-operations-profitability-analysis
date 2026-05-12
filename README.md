@@ -1,14 +1,28 @@
 # Retail Operations Profitability Analysis
 
-## Project Overview
-
-This business intelligence and exploratory data analysis project investigates declining profitability within a retail company despite continued sales growth. The analysis focuses on operational performance, shipping efficiency, regional trends, product category profitability, customer behavior, and fraud-related activity.
-
-The goal of this project is to identify operational inefficiencies, evaluate business hypotheses, and provide data-driven recommendations to improve profitability and operational performance.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-lightgrey)
+![Tableau](https://img.shields.io/badge/Tableau-Business%20Intelligence-orange)
 
 ---
 
-## Business Questions
+# Project Overview
+
+This business intelligence and exploratory data analysis project investigates declining profitability within a retail company despite continued sales growth.
+
+The analysis focuses on:
+- operational performance
+- shipping efficiency
+- regional profitability
+- product category performance
+- customer segment behavior
+- fraud-related activity
+
+The objective of this project is to identify operational inefficiencies, evaluate business hypotheses, and generate data-driven recommendations to improve profitability and operational performance.
+
+---
+
+# Business Questions
 
 - Why is profitability declining despite increasing sales volume?
 - Are shipping delays negatively impacting profitability?
@@ -21,7 +35,7 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Hypotheses
+# Hypotheses
 
 - Higher discount rates may reduce profitability.
 - Standard shipping may increase late delivery risk.
@@ -33,7 +47,7 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Tools & Technologies
+# Tools & Technologies
 
 - Python
 - Pandas
@@ -44,38 +58,83 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Key Areas of Analysis
+# Project Workflow
 
-### Operational Performance
+1. Data cleaning and preprocessing  
+2. KPI identification and feature engineering  
+3. Exploratory data analysis (EDA)  
+4. Operational and profitability analysis  
+5. Business recommendations and strategic insights  
+6. Dashboard development (in progress)  
+
+---
+
+# Key Areas of Analysis
+
+## Operational Performance
 - Shipping mode analysis
 - Late delivery analysis
 - Delivery status investigation
 
-### Financial Performance
+## Financial Performance
 - Profitability trends
 - Profit ratio analysis
 - Discount impact analysis
 
-### Regional Analysis
+## Regional Analysis
 - Regional sales performance
 - Regional margin efficiency
 - High-sales vs low-margin regions
 
-### Product Performance
+## Product Performance
 - Product category profitability
 - High-margin vs low-margin categories
 
-### Customer Analysis
+## Customer Analysis
 - Customer segment profitability
 - Consumer vs Corporate vs Home Office performance
 
-### Fraud Investigation
+## Fraud Investigation
 - Fraud vs non-fraud financial comparison
 - Fraud-related operational patterns
 
 ---
 
-## Key Findings
+# Key Visualizations
+
+## Shipping Mode vs Actual Late Delivery Rate
+
+![Shipping Late Delivery Analysis](images/shipping_late_delivery_rate.png)
+
+This visualization compares actual late delivery rates across shipping methods and highlights the relationship between delivery expectations and operational performance.
+
+---
+
+## Product Category Profitability
+
+![Product Category Profitability](images/product_category_profitability.png)
+
+This analysis identifies product categories generating high sales volume versus those producing stronger profit margins and profitability efficiency.
+
+---
+
+## Regional Profitability Analysis
+
+![Regional Profitability](images/regional_profitability.png)
+
+Regional analysis highlights areas with strong sales performance but weaker margins, helping identify regions requiring operational review.
+
+---
+
+## Shipping Mode vs Profitability
+
+![Shipping Profitability](images/shipping_profitability.png)
+
+This visualization compares shipping methods by average profit per order and profit ratio to evaluate operational efficiency and financial performance.
+
+---
+
+# Key Findings
 
 - Higher discount levels were associated with lower profitability.
 - First Class and Second Class shipping methods experienced the highest late delivery rates.
@@ -86,7 +145,7 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Business Recommendations
+# Business Recommendations
 
 - Reevaluate aggressive discounting strategies.
 - Improve delivery promise accuracy for expedited shipping methods.
@@ -97,17 +156,17 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Repository Contents
+# Repository Contents
 
 | File | Description |
 |---|---|
-| `retail_operations_analysis.ipynb` | Full exploratory data analysis notebook |
+| `retail_operations_profitability_analysis.ipynb` | Full exploratory data analysis notebook |
 | `cleaned_retail_data.csv` | Cleaned dataset used for analysis |
 | `README.md` | Project overview and documentation |
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 - Build an interactive Tableau dashboard
 - Perform statistical hypothesis testing
@@ -117,7 +176,7 @@ The goal of this project is to identify operational inefficiencies, evaluate bus
 
 ---
 
-## Author
+# Author
 
 Mariah Alexander  
 MS Mathematics | Business Intelligence & Data Analytics Enthusiast
